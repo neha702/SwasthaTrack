@@ -196,7 +196,7 @@ package "Service Layer" {
 
 package "Repository Layer" {
     class UserRepository {
-        +findByEmail(emailId)
+        +findByEmailId(emailId)
         +save(user)
     }
 }

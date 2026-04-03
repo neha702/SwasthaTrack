@@ -1,0 +1,16 @@
+# Pull PostgreSQL image
+# Start DB
+# Auto-create swastha_db
+version: '3.8'
+services:
+  postgres:
+    image: postgres
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_DB: swastha_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: pwd
+
+volumes:
+  postgres_data:
