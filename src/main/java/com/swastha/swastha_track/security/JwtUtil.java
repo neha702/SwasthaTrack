@@ -20,7 +20,7 @@ import io.jsonwebtoken.security.Keys;
 public class JwtUtil {
 
     // ✅ Use a strong secret (at least 32 chars for HS256)
-    private static final String SECRET = "your-256-bit-secret-your-256-bit-secret";
+    private static final String SECRET = "ABXY1234567890!@#$%^&*()_+ABXY1234567890!@#$%^&*()_+";
 
     private static final Key SECRET_KEY =
             Keys.hmacShaKeyFor(SECRET.getBytes(StandardCharsets.UTF_8));

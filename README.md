@@ -23,7 +23,7 @@ Analyze your body health using simple inputs.
 * Category:
 
   * Underweight
-  * Normal
+  * Normal weight
   * Overweight
 
 ---
